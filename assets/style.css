@@ -117,16 +117,18 @@ text-shadow: 2px 2px 5px black;
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
-    justify-content: center;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .hero h2 {
-    padding-left: 160px;
     font-weight: lighter;
     font-size: 30px;
     color: #ffffff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 4.0);
     width: 50%;
+    margin-left: 15%;
 }
 
 .hero-cta {
@@ -339,6 +341,23 @@ header nav ul {
   
   .contact-info iframe{
     flex: 1 100%;
+  }
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero h2 {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .headshot {
+    flex-direction: column;
+  }
+
+  .headshot img{
+    margin: auto;
   }
 }
 
