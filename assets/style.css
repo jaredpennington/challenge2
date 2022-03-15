@@ -185,6 +185,26 @@ text-shadow: 2px 2px 5px black;
     background-position: 80%;
 }
 
+.password-picture {
+  margin: 20px;
+  background: #000000;
+  color: #ffffff;
+  flex: 1;
+  background-image: url(./portfolio/Screen\ Shot\ 2022-03-15\ at\ 2.28.10\ AM.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.password-text {
+    color: #ffffff;
+}
+
+
+.password-text h3:hover {
+  color: #000000;
+}
+
 .trainer-run h3:hover {
     color: #000000;
 }
