@@ -196,10 +196,29 @@ text-shadow: 2px 2px 5px black;
   background-position: 80%;
 }
 
-.password-text {
-    color: #ffffff;
+.cocktail-picture{
+  margin: 20px;
+  background: #000000;
+  color: #ffffff;
+  flex: 1;
+  background-image: url(./portfolio/Screen\ Shot\ 2022-04-08\ at\ 7.53.10\ PM.png);
+  background-size:cover;
+  background-attachment:fixed;
+  background-position: 5%;
 }
 
+.cocktail-text{
+  color: #ffffff;
+
+}
+.password-text {
+  color: #ffffff;
+}
+
+
+.cocktail-text h3:hover{
+  color: #000000;
+}
 
 .password-text h3:hover {
   color: #000000;
